@@ -1,0 +1,159 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    min-width: 500px;
+    margin: auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.q1 {
+    background-color: #1F2937;
+}
+
+.q1body{
+    color: #F9FAF8;
+    display: flex;
+    padding: 0 16px;
+    padding-bottom: 24px;
+    max-width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.q1 img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.q1left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.q1left {
+    padding-right: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    margin-top: 12px;
+    padding: 5px 20px;
+    border-radius:5px;
+}
+
+.q2 img {
+    width: 100px;
+}
+
+.q2body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.subtext{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.q3 {
+    background-color: #E5E7EB;
+}
+
+.q3content {
+    max-width: 40%;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.q3content p {
+    margin: 0;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    padding-left: 300px;
+}
+
+.ad {
+    background-color: #3882F6;
+    max-width: 50%;
+    min-width: 500px;
+    margin: 64px auto;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#F9FAF8;
+    border-radius: 10px;
+}
+
+.ad button {
+    border:#E5E7EB solid;
+    margin-right: 24px;
+}
+
+.adTitle{
+    font-weight: bold;
+}
